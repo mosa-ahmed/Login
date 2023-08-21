@@ -1,0 +1,10 @@
+.login-cont{
+    max-height: 550px;
+}
+
+.forms .icons > div{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+}

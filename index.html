@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body class="bg-dark">
+    <div class="main-cont container-md d-flex flex-column justify-content-center align-items-center">
+        <div class="login-cont my-4 p-4 bg-light w-50 rounded-1 text-dark d-flex flex-column justify-content-center align-items-center">
+            <h2 id="heading" class="text-capitalize fw-bold m-0">Login</h2>
+            <div class="forms">
+                <label for="userName" id="label-user" class="mt-2 d-none">UserName
+                    <small class="text-danger">From 3 to 10 character</small>
+                </label>
+                <input type="text" id="userName" class="d-none w-100 mb-2">
+
+                <label for="email" class="mt-3 ">Email
+                </label>
+                <input type="text" id="email" class="w-100 mb-2 ">
+
+                <label for="password"  class="mt-3 ">Password
+                </label>
+                <input type="password" id="password" class="w-100 mb-2">
+                <p class="mt-0 mb-1 align-self-start">
+                    <a href="" class="fw-bolder text-decoration-none">Forgot Password?</a>
+                </p>
+                <p id="succ" class="align-self-start m-1 fw-bolder opacity-0 text-danger">
+                    Success
+                </p>
+                <button id="login-btn" class="btn btn-danger rounded-pill w-100"></button>
+                <p class="my-3">
+                    Don't have an account? <a href="#" class="fw-bolder text-decoration-none" id="sign-up">sign-up</a>
+                </p>
+                <div class="d-flex justify-content-around">
+                    <hr style="width: 40%;">
+                    <p class="text-center">or using</p>
+                    <hr style="width: 40%;">
+                </div>
+                <div class="icons d-flex justify-content-center align-items-center">
+                    <div class="m-3 bg-info rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-facebook-f fa-2x"></i>
+                    </div>
+                    <div class="m-3 bg-dark rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-twitter fa-2x"></i>
+                    </div>
+                    <div class="m-3 bg-danger rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-google fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
